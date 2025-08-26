@@ -1,0 +1,78 @@
+{
+  "hydrogen_bonds": [
+    {
+      "resname": null,
+      "resnr": 436,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 292,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 218,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 218,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 218,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 447,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 447,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 451,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 451,
+      "chain": ""
+    }
+  ],
+  "hydrophobic_contacts": [
+    {
+      "resname": null,
+      "resnr": 195,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 214,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 451,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 455,
+      "chain": ""
+    },
+    {
+      "resname": null,
+      "resnr": 444,
+      "chain": ""
+    }
+  ],
+  "ionic_interactions": [],
+  "water_bridges": []
+}
