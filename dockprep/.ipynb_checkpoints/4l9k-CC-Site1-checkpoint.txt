@@ -4,3 +4,4 @@ center_z = 0
 size_x = 21
 size_y = 27
 size_z = 30
+num_modes = 20
