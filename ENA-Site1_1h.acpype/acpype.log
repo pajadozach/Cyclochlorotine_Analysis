@@ -1,0 +1,69 @@
+============================================================================
+| ACPYPE: AnteChamber PYthon Parser interfacE v. 2023.10.27 (c) 2025 AWSdS |
+============================================================================
+DEBUG: CLI: -i Results/Site1/HOLO/ENA/ENA-Site1_1h.pdb -c bcc -o gmx
+DEBUG: Python Version 3.11.0rc1 (main, Aug 12 2022, 10:02:14) [GCC 11.2.0]
+DEBUG: Max execution time tolerance is 3h
+DEBUG: setResNameCheckCoords done
+WARNING: no charge value given, trying to guess one...
+DEBUG: guessCharge: /usr/local/bin/obabel -ipdb ENA-Site1_1h.pdb -omol2 -O ENA-Site1_1h.mol2
+DEBUG: 1 molecule converted
+DEBUG: /usr/local/lib/python3.11/dist-packages/acpype/amber_linux/bin/antechamber -dr no -i /tf/notebooks/Cyclochlorotine/Cylochlorotine_Analysis/.acpype_tmp_ENA-Site1_1h/ENA-Site1_1h.mol2 -fi mol2 -o tmp -fo mol2 -c gas -pf n
+DEBUG: /usr/local/lib/python3.11/dist-packages/acpype/amber_linux/bin/antechamber -dr no -i tmp -fi mol2 -o tmp -fo mol2 -c wc -cf tmp.crg -pf n
+DEBUG: ++++++++++start_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: 
+Welcome to antechamber 22.0: molecular input file processor.
+
+Info: The atom type is set to gaff; the options available to the -at flag are
+ gaff, gaff2, amber, bcc, and sybyl.
+
+
+DEBUG: ++++++++++end_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: readMol2TotalCharge: 9.000000000695951e-06
+DEBUG: Net charge drift '0.000009'
+==> ... charge set to 0
+==> ... converting pdb input file to mol2 input file
+DEBUG: /usr/local/bin/obabel -ipdb ENA-Site1_1h.pdb -omol2 -O ENA-Site1_1h.mol2
+==> * Babel OK *
+==> Executing Antechamber...
+DEBUG: /usr/local/lib/python3.11/dist-packages/acpype/amber_linux/bin/antechamber -dr no -i ENA-Site1_1h.mol2 -fi mol2 -o ENA-Site1_1h_bcc_gaff2.mol2 -fo mol2 -c bcc -nc 0 -m 1 -s 2 -df 2 -at gaff2 -pf n 
+DEBUG: No file left to be removed
+ERROR: ++++++++++start_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ERROR: 
+Welcome to antechamber 22.0: molecular input file processor.
+
+Info: The atom type is set to gaff2; the options available to the -at flag are
+ gaff, gaff2, amber, bcc, and sybyl.
+
+Info: Finished reading file (ENA-Site1_1h.mol2); atoms read (111), bonds read (111).
+Info: Determining atomic numbers from atomic symbols which are case sensitive.
+Running: /usr/local/lib/python3.11/dist-packages/acpype/amber_linux/bin/bondtype -j full -i ANTECHAMBER_BOND_TYPE.AC0 -o ANTECHAMBER_BOND_TYPE.AC -f ac
+
+Running: /usr/local/lib/python3.11/dist-packages/acpype/amber_linux/bin/atomtype -i ANTECHAMBER_AC.AC0 -o ANTECHAMBER_AC.AC -p gaff2
+Info: Total number of electrons: 372; net charge: 0
+
+Running: /usr/local/lib/python3.11/dist-packages/acpype/amber_linux/bin/sqm -O -i sqm.in -o sqm.out
+/usr/local/lib/python3.11/dist-packages/acpype/amber_linux/bin/sqm: error while loading shared libraries: libarpack.so.2: cannot open shared object file: No such file or directory
+/usr/local/lib/python3.11/dist-packages/acpype/amber_linux/bin/wrapped_progs/antechamber: Fatal Error!
+Cannot properly run "/usr/local/lib/python3.11/dist-packages/acpype/amber_linux/bin/sqm -O -i sqm.in -o sqm.out".
+
+ERROR: ++++++++++end_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ERROR: Antechamber failed
+DEBUG: /usr/local/lib/python3.11/dist-packages/acpype/amber_linux/bin/parmchk2 -i ENA-Site1_1h_bcc_gaff2.mol2 -f mol2 -o ENA-Site1_1h_AC.frcmod -s 2
+ERROR: ++++++++++start_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ERROR: Cannot open file (ENA-Site1_1h_bcc_gaff2.mol2) with mode (r).
+No such file or directory
+ERROR: ++++++++++end_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ERROR: Parmchk failed
+ERROR: Tleap failed
+==> Removing temporary files...
+ERROR: ACPYPE FAILED: [Errno 2] No such file or directory: 'ENA-Site1_1h_AC.prmtop'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/acpype/cli.py", line 138, in init_main
+    molecule.createMolTopol()
+  File "/usr/local/lib/python3.11/dist-packages/acpype/topol.py", line 1115, in createMolTopol
+    self.topFileData = open(self.acTopFileName).readlines()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'ENA-Site1_1h_AC.prmtop'
+Total time of execution: 1s
+DEBUG: No tmp folder left to be removed

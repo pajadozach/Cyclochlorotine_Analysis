@@ -1,0 +1,14 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff
+
+rec = loadpdb /tf/notebooks/Cyclochlorotine/Cylochlorotine_Analysis/HSA_Target/2BXD/prep_2bxd.pdb
+lig = loadmol2 /tf/notebooks/Cyclochlorotine/Cylochlorotine_Analysis/Results/MM/prep_2bxd__ENA-Site1_1h/ENA-Site1_1h.mol2
+loadamberparams /tf/notebooks/Cyclochlorotine/Cylochlorotine_Analysis/Results/MM/prep_2bxd__ENA-Site1_1h/ENA-Site1_1h.frcmod
+
+complex = combine {rec lig}
+
+saveamberparm rec /tf/notebooks/Cyclochlorotine/Cylochlorotine_Analysis/Results/MM/prep_2bxd__ENA-Site1_1h/receptor.prmtop /tf/notebooks/Cyclochlorotine/Cylochlorotine_Analysis/Results/MM/prep_2bxd__ENA-Site1_1h/receptor.inpcrd
+saveamberparm lig /tf/notebooks/Cyclochlorotine/Cylochlorotine_Analysis/Results/MM/prep_2bxd__ENA-Site1_1h/ligand.prmtop /tf/notebooks/Cyclochlorotine/Cylochlorotine_Analysis/Results/MM/prep_2bxd__ENA-Site1_1h/ligand.inpcrd
+saveamberparm complex /tf/notebooks/Cyclochlorotine/Cylochlorotine_Analysis/Results/MM/prep_2bxd__ENA-Site1_1h/complex.prmtop /tf/notebooks/Cyclochlorotine/Cylochlorotine_Analysis/Results/MM/prep_2bxd__ENA-Site1_1h/complex.inpcrd
+
+quit
