@@ -1,0 +1,19 @@
+; h2ibp_GMX_OPLS.top created by acpype (v: 2023.10.27) on Thu Sep  4 07:59:51 2025
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include h2ibp_GMX.itp topology
+#include "h2ibp_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_h2ibp.itp"
+#endif
+
+[ system ]
+ h2ibp
+
+[ molecules ]
+; Compound        nmols
+ h2ibp            1     

@@ -1,0 +1,117 @@
+Remarks h2eb1_CNS.par created by acpype (v: 2023.10.27) on Thu Sep  4 07:59:48 2025
+
+set echo=false end
+
+{ Bonds: atomType1 atomType2 kb r0 }
+BOND   c3_   h1_    344.2   1.0969
+BOND   c3_   hc_    345.2   1.0962
+BOND   os_    c_    351.3   1.3621
+BOND   os_   c3_    282.3   1.4273
+BOND    o_    c_    590.6   1.2190
+BOND    n_   c3_    254.5   1.4643
+BOND    n_    c_    317.5   1.3967
+BOND   c3_   c3_    228.9   1.5354
+BOND   c3_    c_    234.8   1.5270
+
+{ Angles: aType1 aType2 aType3 kt t0 }
+ANGLe   os_   c3_   h1_     56.2   110.34
+ANGLe    n_   c3_   h1_     48.1   108.76
+ANGLe   c3_   c3_   hc_     43.3   109.68
+ANGLe    c_   c3_   h1_     43.7   108.37
+ANGLe   c3_   c3_   h1_     43.3   109.59
+ANGLe   h1_   c3_   h1_     35.6   108.55
+ANGLe   hc_   c3_   hc_     35.8   107.73
+ANGLe   os_    c_    o_    101.3   123.20
+ANGLe   os_    c_   c3_     78.0   110.80
+ANGLe   os_   c3_   c3_     77.4   107.62
+ANGLe   os_   c3_    c_     77.1   109.27
+ANGLe    o_    c_    n_     86.7   122.57
+ANGLe    o_    c_   c3_     76.5   122.90
+ANGLe    n_   c3_   c3_     65.0   112.78
+ANGLe    n_   c3_    c_     65.4   111.94
+ANGLe    n_    c_   c3_     65.2   117.16
+ANGLe   c3_    n_   c3_     76.2   116.75
+ANGLe   c3_    n_    c_     77.2   118.83
+ANGLe   c3_   c3_   c3_     59.9   112.63
+ANGLe   c3_   os_    c_     89.4   115.82
+ANGLe    c_   c3_   c3_     60.4   111.43
+
+{ Proper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+DIHEdral    n_    c_   c3_   c3_  MULT 2   0.710    2   180.00
+                                           0.000    4   180.00
+DIHEdral   c3_   c3_   c3_   c3_           0.520    3     0.00
+DIHEdral   os_   c3_    c_    n_           0.000    2   180.00
+DIHEdral    c_   c3_    n_   c3_           0.000    0     0.00
+DIHEdral    c_    n_   c3_   c3_  MULT 3   2.260    1     0.00
+                                           0.030    3   180.00
+                                           0.650    4   180.00
+DIHEdral    c_   os_   c3_   h1_           0.383    3     0.00
+DIHEdral    c_   os_   c3_    c_           0.383    3     0.00
+DIHEdral   c3_   os_    c_    o_  MULT 2   1.400    1   180.00
+                                           2.700    2   180.00
+DIHEdral    o_    c_   c3_   h1_  MULT 2   0.800    1     0.00
+                                           0.080    3   180.00
+DIHEdral   os_   c3_    c_    o_  MULT 3   0.000    1   180.00
+                                           1.070    2   180.00
+                                           0.210    3   180.00
+DIHEdral    o_    c_    n_   c3_           2.500    2   180.00
+DIHEdral    c_   os_   c3_   c3_  MULT 2   0.800    1   180.00
+                                           0.383    3     0.00
+DIHEdral    c_   c3_   os_    c_           0.383    3     0.00
+DIHEdral   os_   c3_   c3_   hc_  MULT 2   0.250    1     0.00
+                                           0.000    0     0.00
+DIHEdral   c3_    c_    n_   c3_  MULT 3   2.930    1     0.00
+                                           1.410    2   180.00
+                                           0.500    3     0.00
+DIHEdral   os_    c_   c3_    n_           0.000    2   180.00
+DIHEdral    c_   c3_   c3_   hc_           0.156    3     0.00
+DIHEdral   h1_   c3_   c3_   hc_           0.156    3     0.00
+DIHEdral    c_   c3_   c3_   c3_  MULT 3   0.460    1   180.00
+                                           0.040    2     0.00
+                                           0.000    0     0.00
+DIHEdral    o_    c_   os_   c3_  MULT 2   1.400    1   180.00
+                                           2.700    2   180.00
+DIHEdral    n_    c_   c3_   h1_           0.000    2   180.00
+DIHEdral    n_   c3_   c3_   c3_           0.100    3     0.00
+DIHEdral   os_   c3_   c3_   c3_           0.156    3     0.00
+DIHEdral   c3_   c3_   c3_   h1_           0.156    3     0.00
+DIHEdral    o_    c_   c3_   c3_  MULT 3   0.680    1     0.00
+                                           0.200    2   180.00
+                                           0.440    3   180.00
+DIHEdral    c_    n_   c3_    c_  MULT 2   0.640    1     0.00
+                                           0.390    2   180.00
+DIHEdral   hc_   c3_   c3_   hc_           0.120    3     0.00
+DIHEdral   c3_   os_    c_   c3_  MULT 3   1.890    1   180.00
+                                           3.290    2   180.00
+                                           0.750    3     0.00
+DIHEdral   c3_    n_   c3_   c3_           0.000    0     0.00
+DIHEdral   c3_    n_    c_   c3_  MULT 3   2.930    1     0.00
+                                           1.410    2   180.00
+                                           0.500    3     0.00
+DIHEdral    n_   c3_   c3_   hc_           0.156    3     0.00
+DIHEdral   os_    c_   c3_   c3_           0.000    2   180.00
+DIHEdral   c3_    c_   os_   c3_  MULT 3   1.890    1   180.00
+                                           3.290    2   180.00
+                                           0.750    3     0.00
+DIHEdral   c3_   c3_   c3_   hc_           0.130    3     0.00
+DIHEdral    o_    c_   c3_    n_           0.000    2   180.00
+DIHEdral    c_    n_   c3_   h1_           0.000    2   180.00
+DIHEdral   c3_    n_   c3_   h1_           0.000    0     0.00
+DIHEdral   os_    c_   c3_   h1_           0.000    2   180.00
+
+{ Improper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+IMPRoper   c3_    o_    c_   os_           1.1    2   180.00
+IMPRoper   os_    c_    o_   c3_           1.1    2   180.00
+IMPRoper    c_   c3_    n_   c3_           1.1    2   180.00
+IMPRoper   c3_    n_    c_    o_          10.5    2   180.00
+
+{ Nonbonded: Type Emin sigma; (1-4): Emin/2 sigma }
+NONBonded   os_    0.072600    3.156098    0.036300    3.156098
+NONBonded    o_    0.146300    3.048121    0.073150    3.048121
+NONBonded    n_    0.163600    3.180865    0.081800    3.180865
+NONBonded   c3_    0.107800    3.397710    0.053900    3.397710
+NONBonded    c_    0.098800    3.315212    0.049400    3.315212
+NONBonded   h1_    0.020800    2.421997    0.010400    2.421997
+NONBonded   hc_    0.020800    2.600177    0.010400    2.600177
+
+set echo=true end

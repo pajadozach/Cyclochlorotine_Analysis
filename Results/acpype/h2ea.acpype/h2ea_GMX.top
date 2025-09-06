@@ -1,0 +1,20 @@
+; h2ea_GMX.top created by acpype (v: 2023.10.27) on Thu Sep  4 07:59:43 2025
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333333333
+
+; Include h2ea_GMX.itp topology
+#include "h2ea_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_h2ea.itp"
+#endif
+
+[ system ]
+ h2ea
+
+[ molecules ]
+; Compound        nmols
+ h2ea             1     

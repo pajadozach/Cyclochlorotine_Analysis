@@ -1,0 +1,19 @@
+; h1ea1_GMX_OPLS.top created by acpype (v: 2023.10.27) on Thu Sep  4 04:35:37 2025
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include h1ea1_GMX.itp topology
+#include "h1ea1_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_h1ea1.itp"
+#endif
+
+[ system ]
+ h1ea1
+
+[ molecules ]
+; Compound        nmols
+ h1ea1            1     

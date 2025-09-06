@@ -1,0 +1,112 @@
+============================================================================
+| ACPYPE: AnteChamber PYthon Parser interfacE v. 2023.10.27 (c) 2025 AWSdS |
+============================================================================
+DEBUG: CLI: -i Results/Site2/HOLO/ENA1/ENA1-Site2_1h.pdb -b h2ea1 -c bcc
+DEBUG: Python Version 3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:50:58) [GCC 12.3.0]
+DEBUG: Max execution time tolerance is 3h
+DEBUG: setResNameCheckCoords done
+WARNING: no charge value given, trying to guess one...
+DEBUG: guessCharge: /home/zach/anaconda3/bin/obabel -ipdb ENA1-Site2_1h.pdb -omol2 -O h2ea1.mol2
+DEBUG: 1 molecule converted
+DEBUG: /home/zach/anaconda3/bin/antechamber -dr no -i /home/zach/MD/project/.acpype_tmp_h2ea1/h2ea1.mol2 -fi mol2 -o tmp -fo mol2 -c gas -pf n
+DEBUG: /home/zach/anaconda3/bin/antechamber -dr no -i tmp -fi mol2 -o tmp -fo mol2 -c wc -cf tmp.crg -pf n
+DEBUG: ++++++++++start_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: 
+Welcome to antechamber 22.0: molecular input file processor.
+
+Info: The atom type is set to gaff; the options available to the -at flag are
+ gaff, gaff2, amber, bcc, and sybyl.
+
+/bin/bash: /home/zach/anaconda3/lib/libtinfo.so.6: no version information available (required by /bin/bash)
+/bin/bash: /home/zach/anaconda3/lib/libtinfo.so.6: no version information available (required by /bin/bash)
+
+DEBUG: ++++++++++end_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: readMol2TotalCharge: 1.0999999999909086e-05
+DEBUG: Net charge drift '0.000011'
+==> ... charge set to 0
+==> ... converting pdb input file to mol2 input file
+DEBUG: /home/zach/anaconda3/bin/obabel -ipdb ENA1-Site2_1h.pdb -omol2 -O h2ea1.mol2
+==> * Babel OK *
+==> Executing Antechamber...
+DEBUG: /home/zach/anaconda3/bin/antechamber -dr no -i h2ea1.mol2 -fi mol2 -o h2ea1_bcc_gaff2.mol2 -fo mol2 -c bcc -nc 0 -m 1 -s 2 -df 2 -at gaff2 -pf n 
+==> AC output file present... doing nothing
+==> * Antechamber OK *
+DEBUG: /home/zach/anaconda3/bin/parmchk2 -i h2ea1_bcc_gaff2.mol2 -f mol2 -o h2ea1_AC.frcmod -s 2
+==> * Parmchk OK *
+==> Topologies files already present... doing nothing
+==> * Tleap OK *
+==> Removing temporary files...
+DEBUG: prmtop and inpcrd files loaded
+DEBUG: basename defined = 'h2ea1'
+DEBUG: getCoords done
+DEBUG: getABCOEFs done
+DEBUG: charge to be balanced: total 0.0029889959
+DEBUG: balanceCharges done
+DEBUG: Balanced TotalCharge -0.0000000000
+DEBUG: PBC = None
+DEBUG: getAtoms done
+DEBUG: getBonds done
+DEBUG: getAngles done
+DEBUG: getDihedrals done
+==> Using OpenBabel v.3.1.0
+
+==> Writing NEW PDB file
+
+==> Writing CNS/XPLOR files
+
+DEBUG: chiralGroups 8
+==> Writing GROMACS files
+
+==> Disambiguating lower and uppercase atomtypes in GMX top file, even if identical.
+
+DEBUG: writing GRO file
+DEBUG: Box size estimated
+DEBUG: writing POSRE file
+DEBUG: atomTypes 7
+DEBUG: GMX atomtypes done
+DEBUG: atoms 108
+DEBUG: GMX atoms done
+DEBUG: bonds 108
+DEBUG: GMX bonds done
+DEBUG: atomPairs 279
+DEBUG: GMX pairs done
+DEBUG: angles 204
+DEBUG: GMX angles done
+DEBUG: setProperDihedralsCoef done
+DEBUG: properDihedralsCoefRB 279
+DEBUG: properDihedralsAlphaGamma 0
+DEBUG: properDihedralsGmx45 366
+==> Writing GMX dihedrals for GMX 4.5 and higher.
+
+DEBUG: GMX special proper dihedrals done
+DEBUG: improperDihedrals 9
+DEBUG: GMX improper dihedrals done
+==> Writing CHARMM files
+
+DEBUG: /home/zach/anaconda3/bin/antechamber -dr no -i h2ea1_bcc_gaff2.mol2 -fi mol2 -o h2ea1_CHARMM -fo charmm -s 2 -at gaff2 -pf n -rn UNL
+DEBUG: ++++++++++start_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG: 
+Welcome to antechamber 22.0: molecular input file processor.
+
+Info: The atom type is set to gaff2; the options available to the -at flag are
+ gaff, gaff2, amber, bcc, and sybyl.
+
+Info: Ignoring Mol2 record type (@<TRIPOS>SUBSTRUCTURE).
+Info: Finished reading file (h2ea1_bcc_gaff2.mol2); atoms read (108), bonds read (108).
+Info: Determining atomic numbers from atomic symbols which are case sensitive.
+Running: /home/zach/anaconda3/bin/bondtype -j full -i ANTECHAMBER_BOND_TYPE.AC0 -o ANTECHAMBER_BOND_TYPE.AC -f ac
+/bin/bash: /home/zach/anaconda3/lib/libtinfo.so.6: no version information available (required by /bin/bash)
+
+Running: /home/zach/anaconda3/bin/atomtype -i ANTECHAMBER_AC.AC0 -o ANTECHAMBER_AC.AC -p gaff2
+/bin/bash: /home/zach/anaconda3/lib/libtinfo.so.6: no version information available (required by /bin/bash)
+
+Running: /home/zach/anaconda3/bin/atomtype -i ANTECHAMBER_PREP.AC0 -o ANTECHAMBER_PREP.AC -p gaff2
+/bin/bash: /home/zach/anaconda3/lib/libtinfo.so.6: no version information available (required by /bin/bash)
+
+Running: /home/zach/anaconda3/bin/charmmgen -i ANTECHAMBER_PREP.AC -f ac -o h2ea1_CHARMM -r UNL
+
+DEBUG: ++++++++++end_quote+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==> Pickle file h2ea1.pkl already present... doing nothing
+==> Removing temporary files...
+Total time of execution: 2s
+DEBUG: No tmp folder left to be removed

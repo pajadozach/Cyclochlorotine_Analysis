@@ -1,6 +1,6 @@
 Prediction of noncovalent interactions for PDB structure ENB1_SITE2_PLIP_PROTEIN
 ================================================================================
-Created on 2025/09/01 using PLIP v2.4.0
+Created on 2025/09/06 using PLIP v2.3.1
 
 If you are using PLIP in your work, please cite:
 Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294

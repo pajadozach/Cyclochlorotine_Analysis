@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='ASCII'?>
 <report>
-  <plipversion>2.4.0</plipversion>
+  <plipversion>2.3.1</plipversion>
   <bindingsite id="1" has_interactions="True">
     <identifiers>
       <longname>UNL</longname>
@@ -33,40 +33,40 @@
       <interacting_chain id="1">A</interacting_chain>
     </interacting_chains>
     <bs_residues>
-      <bs_residue id="1" contact="False" min_dist="5.0" aa="GLU">292A</bs_residue>
-      <bs_residue id="2" contact="True" min_dist="3.7" aa="ARG">257A</bs_residue>
-      <bs_residue id="3" contact="False" min_dist="5.9" aa="SER">192A</bs_residue>
-      <bs_residue id="4" contact="True" min_dist="2.7" aa="ARG">222A</bs_residue>
-      <bs_residue id="5" contact="False" min_dist="3.4" aa="ALA">291A</bs_residue>
-      <bs_residue id="6" contact="True" min_dist="3.1" aa="LYS">199A</bs_residue>
-      <bs_residue id="7" contact="False" min_dist="5.1" aa="VAL">241A</bs_residue>
-      <bs_residue id="8" contact="False" min_dist="4.2" aa="ALA">261A</bs_residue>
-      <bs_residue id="9" contact="False" min_dist="4.6" aa="GLU">153A</bs_residue>
-      <bs_residue id="10" contact="False" min_dist="6.3" aa="PHE">223A</bs_residue>
-      <bs_residue id="11" contact="True" min_dist="3.0" aa="TYR">150A</bs_residue>
-      <bs_residue id="12" contact="False" min_dist="6.3" aa="THR">239A</bs_residue>
-      <bs_residue id="13" contact="False" min_dist="5.3" aa="GLN">196A</bs_residue>
-      <bs_residue id="14" contact="False" min_dist="7.3" aa="CYS">253A</bs_residue>
-      <bs_residue id="15" contact="False" min_dist="7.3" aa="LEU">234A</bs_residue>
+      <bs_residue id="1" contact="True" min_dist="3.6" aa="LEU">260A</bs_residue>
+      <bs_residue id="2" contact="False" min_dist="4.1" aa="ILE">264A</bs_residue>
+      <bs_residue id="3" contact="True" min_dist="3.7" aa="ARG">257A</bs_residue>
+      <bs_residue id="4" contact="False" min_dist="7.3" aa="CYS">253A</bs_residue>
+      <bs_residue id="5" contact="True" min_dist="2.7" aa="ARG">222A</bs_residue>
+      <bs_residue id="6" contact="True" min_dist="3.6" aa="PHE">211A</bs_residue>
+      <bs_residue id="7" contact="False" min_dist="5.7" aa="ALA">258A</bs_residue>
+      <bs_residue id="8" contact="False" min_dist="4.1" aa="ILE">290A</bs_residue>
+      <bs_residue id="9" contact="False" min_dist="5.0" aa="GLU">292A</bs_residue>
+      <bs_residue id="10" contact="False" min_dist="7.2" aa="CYS">289A</bs_residue>
+      <bs_residue id="11" contact="False" min_dist="4.6" aa="GLU">153A</bs_residue>
+      <bs_residue id="12" contact="False" min_dist="6.6" aa="VAL">293A</bs_residue>
+      <bs_residue id="13" contact="False" min_dist="4.0" aa="LEU">219A</bs_residue>
+      <bs_residue id="14" contact="False" min_dist="5.3" aa="GLN">196A</bs_residue>
+      <bs_residue id="15" contact="False" min_dist="7.2" aa="VAL">235A</bs_residue>
       <bs_residue id="16" contact="False" min_dist="4.1" aa="TRP">214A</bs_residue>
-      <bs_residue id="17" contact="True" min_dist="3.6" aa="LEU">260A</bs_residue>
-      <bs_residue id="18" contact="False" min_dist="4.2" aa="ALA">215A</bs_residue>
-      <bs_residue id="19" contact="False" min_dist="4.1" aa="ILE">290A</bs_residue>
-      <bs_residue id="20" contact="True" min_dist="3.6" aa="PHE">211A</bs_residue>
-      <bs_residue id="21" contact="False" min_dist="5.7" aa="ALA">258A</bs_residue>
-      <bs_residue id="22" contact="False" min_dist="6.6" aa="VAL">293A</bs_residue>
-      <bs_residue id="23" contact="False" min_dist="3.0" aa="HIS">242A</bs_residue>
-      <bs_residue id="24" contact="False" min_dist="4.1" aa="ILE">264A</bs_residue>
-      <bs_residue id="25" contact="False" min_dist="6.7" aa="VAL">216A</bs_residue>
-      <bs_residue id="26" contact="False" min_dist="4.8" aa="LYS">195A</bs_residue>
-      <bs_residue id="27" contact="False" min_dist="7.2" aa="CYS">289A</bs_residue>
-      <bs_residue id="28" contact="False" min_dist="4.6" aa="ARG">218A</bs_residue>
-      <bs_residue id="29" contact="False" min_dist="6.6" aa="HIS">288A</bs_residue>
-      <bs_residue id="30" contact="False" min_dist="4.0" aa="LEU">219A</bs_residue>
-      <bs_residue id="31" contact="False" min_dist="5.1" aa="SER">287A</bs_residue>
-      <bs_residue id="32" contact="False" min_dist="5.8" aa="ASP">256A</bs_residue>
-      <bs_residue id="33" contact="True" min_dist="3.5" aa="LEU">238A</bs_residue>
-      <bs_residue id="34" contact="False" min_dist="7.2" aa="VAL">235A</bs_residue>
+      <bs_residue id="17" contact="False" min_dist="4.2" aa="ALA">215A</bs_residue>
+      <bs_residue id="18" contact="True" min_dist="3.1" aa="LYS">199A</bs_residue>
+      <bs_residue id="19" contact="False" min_dist="6.3" aa="THR">239A</bs_residue>
+      <bs_residue id="20" contact="False" min_dist="4.6" aa="ARG">218A</bs_residue>
+      <bs_residue id="21" contact="True" min_dist="3.5" aa="LEU">238A</bs_residue>
+      <bs_residue id="22" contact="False" min_dist="5.1" aa="VAL">241A</bs_residue>
+      <bs_residue id="23" contact="False" min_dist="3.4" aa="ALA">291A</bs_residue>
+      <bs_residue id="24" contact="False" min_dist="5.1" aa="SER">287A</bs_residue>
+      <bs_residue id="25" contact="False" min_dist="3.0" aa="HIS">242A</bs_residue>
+      <bs_residue id="26" contact="False" min_dist="7.3" aa="LEU">234A</bs_residue>
+      <bs_residue id="27" contact="False" min_dist="6.3" aa="PHE">223A</bs_residue>
+      <bs_residue id="28" contact="False" min_dist="6.6" aa="HIS">288A</bs_residue>
+      <bs_residue id="29" contact="False" min_dist="4.2" aa="ALA">261A</bs_residue>
+      <bs_residue id="30" contact="False" min_dist="5.8" aa="ASP">256A</bs_residue>
+      <bs_residue id="31" contact="False" min_dist="5.9" aa="SER">192A</bs_residue>
+      <bs_residue id="32" contact="True" min_dist="3.0" aa="TYR">150A</bs_residue>
+      <bs_residue id="33" contact="False" min_dist="6.7" aa="VAL">216A</bs_residue>
+      <bs_residue id="34" contact="False" min_dist="4.8" aa="LYS">195A</bs_residue>
     </bs_residues>
     <interactions>
       <hydrophobic_interactions>
@@ -377,16 +377,16 @@
       <smiles_to_pdb>10:8589,6:8590,5:8591,11:8592,13:8593,14:8594,15:8595,16:8596,9:8597,8:8598,7:8599,12:8600,4:8602,3:8603,2:8604,1:8605,23:8606,17:8607,18:8608,19:8609,20:8610,21:8611,22:8612</smiles_to_pdb>
     </mappings>
   </bindingsite>
-  <date_of_creation>2025/09/01</date_of_creation>
+  <date_of_creation>2025/09/06</date_of_creation>
   <citation_information>Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294</citation_information>
   <maintainer_information>PharmAI GmbH (2020-2021) - www.pharm.ai - hello@pharm.ai</maintainer_information>
   <mode>default</mode>
   <pdbid>RWF_SITE1_PLIP_PROTEIN</pdbid>
   <model>1</model>
   <filetype>PDB</filetype>
-  <pdbfile>Results/PLIP/HOLO/plipfixed.RWF-Site1_PLIP__2u6e6ee.pdb</pdbfile>
+  <pdbfile>Results/PLIP/HOLO/plipfixed.RWF-Site1_PLIP_rmbm4apd.pdb</pdbfile>
   <pdbfixes>True</pdbfixes>
-  <filename>plipfixed.RWF-Site1_PLIP__2u6e6ee.pdb</filename>
+  <filename>plipfixed.RWF-Site1_PLIP_rmbm4apd.pdb</filename>
   <excluded_ligands/>
   <covlinkages/>
 </report>

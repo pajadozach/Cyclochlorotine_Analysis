@@ -1,0 +1,59 @@
+;
+;	File 'MD/protein/p2bxdtopol.top' was generated
+;	By user: unknown (1002)
+;	On host: DESKTOP-ITAVUD9
+;	At date: Thu Sep  4 01:08:50 2025
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	         :-) GROMACS - gmx pdb2gmx, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+;	
+;	Executable:   /usr/bin/gmx
+;	Data prefix:  /usr
+;	Working dir:  /home/zach/MD/project
+;	Command line:
+;	  gmx pdb2gmx -f HSA_Target/2BXD/2bxd_fixed.pdb -o MD/protein/p2bxd.gro -p MD/protein/p2bxdtopol.top -i MD/protein/p2bxdposre.itp -ff amber99sb-ildn -water tip3p -ignh
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+#include "h1ea_GMX.itp"
+
+; Include chain topologies
+#include "p2bxdtopol_Protein_chain_A.itp"
+#include "p2bxdtopol_Protein_chain_B.itp"
+
+#ifdef DPOSRES
+#include "p2bxdposre_Protein_chain_A.itp"
+#include "p2bxdposre_Protein_chain_B.itp"
+#endif
+
+; Include water topology
+#include "amber99sb-ildn.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+
+; Include topology for ions
+#include "amber99sb-ildn.ff/ions.itp"
+
+[ system ]
+; Name
+Protein in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
+UNL                 1
+SOL         231094
+NA               685
+CL               655

@@ -1,0 +1,407 @@
+
+CPPTRAJ: Trajectory Analysis. V6.18.1 (AmberTools)
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 09/06/25 19:25:40
+| Available memory: 13.547 GB
+
+	Reading 'COM.prmtop' as Amber Topology
+	Radius Set: H(N)-modified Bondi radii (mbondi2)
+INPUT: Reading input from 'STDIN'
+  [trajin COM_traj_0.xtc 3001 4991 10]
+	Reading 'COM_traj_0.xtc' as Gromacs XTC
+Warning: Trajectory box type is 'Cubic' but topology box type is 'None'.
+Warning: Setting topology box information from trajectory.
+  [noprogress]
+	Progress bar will not be used during Run.
+  [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+    RMSD: (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), reference is first frame (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [outtraj _GMXMMPBSA_complex.pdb pdb onlyframes 1 nobox]
+	Saving frames 1
+	Writing '_GMXMMPBSA_complex.pdb' as PDB
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_dummycomplex.inpcrd restart onlyframes 1 nobox]
+	Saving frames 1
+	Writing '_GMXMMPBSA_dummycomplex.inpcrd' as Amber Restart
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_complex.nc.0 netcdf onlyframes 1-26 nobox]
+	Saving frames 1-26
+	Writing '_GMXMMPBSA_complex.nc.0' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_complex.nc.1 netcdf onlyframes 27-51 nobox]
+	Saving frames 27-51
+	Writing '_GMXMMPBSA_complex.nc.1' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_complex.nc.2 netcdf onlyframes 52-76 nobox]
+	Saving frames 52-76
+	Writing '_GMXMMPBSA_complex.nc.2' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_complex.nc.3 netcdf onlyframes 77-101 nobox]
+	Saving frames 77-101
+	Writing '_GMXMMPBSA_complex.nc.3' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_complex.nc.4 netcdf onlyframes 102-126 nobox]
+	Saving frames 102-126
+	Writing '_GMXMMPBSA_complex.nc.4' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_complex.nc.5 netcdf onlyframes 127-151 nobox]
+	Saving frames 127-151
+	Writing '_GMXMMPBSA_complex.nc.5' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_complex.nc.6 netcdf onlyframes 152-176 nobox]
+	Saving frames 152-176
+	Writing '_GMXMMPBSA_complex.nc.6' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_complex.nc.7 netcdf onlyframes 177-201 nobox]
+	Saving frames 177-201
+	Writing '_GMXMMPBSA_complex.nc.7' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [strip :579]
+    STRIP: Stripping atoms in mask [:579]
+  [outtraj _GMXMMPBSA_receptor.pdb pdb onlyframes 1 nobox]
+	Saving frames 1
+	Writing '_GMXMMPBSA_receptor.pdb' as PDB
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_dummyreceptor.inpcrd restart onlyframes 1 nobox]
+	Saving frames 1
+	Writing '_GMXMMPBSA_dummyreceptor.inpcrd' as Amber Restart
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_receptor.nc.0 netcdf onlyframes 1-26 nobox]
+	Saving frames 1-26
+	Writing '_GMXMMPBSA_receptor.nc.0' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_receptor.nc.1 netcdf onlyframes 27-51 nobox]
+	Saving frames 27-51
+	Writing '_GMXMMPBSA_receptor.nc.1' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_receptor.nc.2 netcdf onlyframes 52-76 nobox]
+	Saving frames 52-76
+	Writing '_GMXMMPBSA_receptor.nc.2' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_receptor.nc.3 netcdf onlyframes 77-101 nobox]
+	Saving frames 77-101
+	Writing '_GMXMMPBSA_receptor.nc.3' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_receptor.nc.4 netcdf onlyframes 102-126 nobox]
+	Saving frames 102-126
+	Writing '_GMXMMPBSA_receptor.nc.4' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_receptor.nc.5 netcdf onlyframes 127-151 nobox]
+	Saving frames 127-151
+	Writing '_GMXMMPBSA_receptor.nc.5' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_receptor.nc.6 netcdf onlyframes 152-176 nobox]
+	Saving frames 152-176
+	Writing '_GMXMMPBSA_receptor.nc.6' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_receptor.nc.7 netcdf onlyframes 177-201 nobox]
+	Saving frames 177-201
+	Writing '_GMXMMPBSA_receptor.nc.7' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [unstrip]
+  [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+    RMSD: (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), reference is first frame (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [strip :1-578]
+    STRIP: Stripping atoms in mask [:1-578]
+  [outtraj _GMXMMPBSA_ligand.pdb pdb onlyframes 1 nobox]
+	Saving frames 1
+	Writing '_GMXMMPBSA_ligand.pdb' as PDB
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_dummyligand.inpcrd restart onlyframes 1 nobox]
+	Saving frames 1
+	Writing '_GMXMMPBSA_dummyligand.inpcrd' as Amber Restart
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_ligand.nc.0 netcdf onlyframes 1-26 nobox]
+	Saving frames 1-26
+	Writing '_GMXMMPBSA_ligand.nc.0' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_ligand.nc.1 netcdf onlyframes 27-51 nobox]
+	Saving frames 27-51
+	Writing '_GMXMMPBSA_ligand.nc.1' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_ligand.nc.2 netcdf onlyframes 52-76 nobox]
+	Saving frames 52-76
+	Writing '_GMXMMPBSA_ligand.nc.2' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_ligand.nc.3 netcdf onlyframes 77-101 nobox]
+	Saving frames 77-101
+	Writing '_GMXMMPBSA_ligand.nc.3' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_ligand.nc.4 netcdf onlyframes 102-126 nobox]
+	Saving frames 102-126
+	Writing '_GMXMMPBSA_ligand.nc.4' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_ligand.nc.5 netcdf onlyframes 127-151 nobox]
+	Saving frames 127-151
+	Writing '_GMXMMPBSA_ligand.nc.5' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_ligand.nc.6 netcdf onlyframes 152-176 nobox]
+	Saving frames 152-176
+	Writing '_GMXMMPBSA_ligand.nc.6' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [outtraj _GMXMMPBSA_ligand.nc.7 netcdf onlyframes 177-201 nobox]
+	Saving frames 177-201
+	Writing '_GMXMMPBSA_ligand.nc.7' as Amber NetCDF
+    OUTTRAJ: Writing frames associated with topology 'COM.prmtop'
+  [unstrip]
+  [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+    RMSD: (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), reference is first frame (!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: COM.prmtop, 9232 atoms, 579 res, box: Cubic, 2 mol
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'COM_traj_0.xtc' is a GROMACS XTC file, Parm COM.prmtop (Cubic box) (reading 200 of 5001)
+  Coordinate processing will occur on 200 frames.
+
+BEGIN TRAJECTORY PROCESSING:
+.....................................................
+ACTION SETUP FOR PARM 'COM.prmtop' (37 actions):
+  0: [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+	Target mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9232)
+	Reference topology: COM.prmtop
+	Reference mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9232)
+  1: [outtraj _GMXMMPBSA_complex.pdb pdb onlyframes 1 nobox]
+        '_GMXMMPBSA_complex.pdb' is a PDB file, Parm COM.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  2: [outtraj _GMXMMPBSA_dummycomplex.inpcrd restart onlyframes 1 nobox]
+        '_GMXMMPBSA_dummycomplex.inpcrd' is an AMBER restart file, Parm COM.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  3: [outtraj _GMXMMPBSA_complex.nc.0 netcdf onlyframes 1-26 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_complex.nc.0' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 1-26
+	Has coordinates, time
+  4: [outtraj _GMXMMPBSA_complex.nc.1 netcdf onlyframes 27-51 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_complex.nc.1' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 27-51
+	Has coordinates, time
+  5: [outtraj _GMXMMPBSA_complex.nc.2 netcdf onlyframes 52-76 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_complex.nc.2' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 52-76
+	Has coordinates, time
+  6: [outtraj _GMXMMPBSA_complex.nc.3 netcdf onlyframes 77-101 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_complex.nc.3' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 77-101
+	Has coordinates, time
+  7: [outtraj _GMXMMPBSA_complex.nc.4 netcdf onlyframes 102-126 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_complex.nc.4' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 102-126
+	Has coordinates, time
+  8: [outtraj _GMXMMPBSA_complex.nc.5 netcdf onlyframes 127-151 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_complex.nc.5' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 127-151
+	Has coordinates, time
+  9: [outtraj _GMXMMPBSA_complex.nc.6 netcdf onlyframes 152-176 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_complex.nc.6' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 152-176
+	Has coordinates, time
+  10: [outtraj _GMXMMPBSA_complex.nc.7 netcdf onlyframes 177-201 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_complex.nc.7' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 177-201
+	Has coordinates, time
+  11: [strip :579]
+	Stripping 111 atoms.
+	Stripped topology: 9121 atoms, 578 res, box: Cubic, 1 mol
+  12: [outtraj _GMXMMPBSA_receptor.pdb pdb onlyframes 1 nobox]
+        '_GMXMMPBSA_receptor.pdb' is a PDB file, Parm COM.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  13: [outtraj _GMXMMPBSA_dummyreceptor.inpcrd restart onlyframes 1 nobox]
+        '_GMXMMPBSA_dummyreceptor.inpcrd' is an AMBER restart file, Parm COM.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  14: [outtraj _GMXMMPBSA_receptor.nc.0 netcdf onlyframes 1-26 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_receptor.nc.0' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 1-26
+	Has coordinates, time
+  15: [outtraj _GMXMMPBSA_receptor.nc.1 netcdf onlyframes 27-51 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_receptor.nc.1' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 27-51
+	Has coordinates, time
+  16: [outtraj _GMXMMPBSA_receptor.nc.2 netcdf onlyframes 52-76 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_receptor.nc.2' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 52-76
+	Has coordinates, time
+  17: [outtraj _GMXMMPBSA_receptor.nc.3 netcdf onlyframes 77-101 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_receptor.nc.3' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 77-101
+	Has coordinates, time
+  18: [outtraj _GMXMMPBSA_receptor.nc.4 netcdf onlyframes 102-126 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_receptor.nc.4' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 102-126
+	Has coordinates, time
+  19: [outtraj _GMXMMPBSA_receptor.nc.5 netcdf onlyframes 127-151 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_receptor.nc.5' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 127-151
+	Has coordinates, time
+  20: [outtraj _GMXMMPBSA_receptor.nc.6 netcdf onlyframes 152-176 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_receptor.nc.6' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 152-176
+	Has coordinates, time
+  21: [outtraj _GMXMMPBSA_receptor.nc.7 netcdf onlyframes 177-201 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_receptor.nc.7' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 177-201
+	Has coordinates, time
+  22: [unstrip]
+  23: [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+	Target mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9232)
+	Reference topology: COM.prmtop
+	Reference mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9232)
+  24: [strip :1-578]
+	Stripping 9121 atoms.
+	Stripped topology: 111 atoms, 1 res, box: Cubic, 1 mol
+  25: [outtraj _GMXMMPBSA_ligand.pdb pdb onlyframes 1 nobox]
+        '_GMXMMPBSA_ligand.pdb' is a PDB file, Parm COM.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  26: [outtraj _GMXMMPBSA_dummyligand.inpcrd restart onlyframes 1 nobox]
+        '_GMXMMPBSA_dummyligand.inpcrd' is an AMBER restart file, Parm COM.prmtop no box info,: Writing frames 1
+	Has coordinates, time
+  27: [outtraj _GMXMMPBSA_ligand.nc.0 netcdf onlyframes 1-26 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_ligand.nc.0' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 1-26
+	Has coordinates, time
+  28: [outtraj _GMXMMPBSA_ligand.nc.1 netcdf onlyframes 27-51 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_ligand.nc.1' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 27-51
+	Has coordinates, time
+  29: [outtraj _GMXMMPBSA_ligand.nc.2 netcdf onlyframes 52-76 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_ligand.nc.2' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 52-76
+	Has coordinates, time
+  30: [outtraj _GMXMMPBSA_ligand.nc.3 netcdf onlyframes 77-101 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_ligand.nc.3' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 77-101
+	Has coordinates, time
+  31: [outtraj _GMXMMPBSA_ligand.nc.4 netcdf onlyframes 102-126 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_ligand.nc.4' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 102-126
+	Has coordinates, time
+  32: [outtraj _GMXMMPBSA_ligand.nc.5 netcdf onlyframes 127-151 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_ligand.nc.5' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 127-151
+	Has coordinates, time
+  33: [outtraj _GMXMMPBSA_ligand.nc.6 netcdf onlyframes 152-176 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_ligand.nc.6' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 152-176
+	Has coordinates, time
+  34: [outtraj _GMXMMPBSA_ligand.nc.7 netcdf onlyframes 177-201 nobox]
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF variable compression requires compiling with HDF5 support.
+Warning: Setting NetCDF frame chunk size requires compiling with HDF5 support.
+        '_GMXMMPBSA_ligand.nc.7' is a NetCDF (NetCDF3) AMBER trajectory, Parm COM.prmtop no box info,: Writing frames 177-201
+	Has coordinates, time
+  35: [unstrip]
+  36: [rmsd !(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL) mass first]
+	Target mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9232)
+	Reference topology: COM.prmtop
+	Reference mask: [!(:WAT,Cl*,CIO,Cs+,IB,K*,Li+,MG*,Na+,Rb+,CS,RB,NA,F,CL)](9232)
+----- COM_traj_0.xtc (3001-4991, 10) -----
+
+Read 200 frames and processed 200 frames.
+TIME: Avg. throughput= 41.2921 frames / second.
+
+ACTION OUTPUT:
+    OUTTRAJ: '_GMXMMPBSA_complex.pdb': Wrote 1 frames.
+    OUTTRAJ: '_GMXMMPBSA_dummycomplex.inpcrd': Wrote 1 frames.
+    OUTTRAJ: '_GMXMMPBSA_complex.nc.0': Wrote 26 frames.
+    OUTTRAJ: '_GMXMMPBSA_complex.nc.1': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_complex.nc.2': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_complex.nc.3': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_complex.nc.4': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_complex.nc.5': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_complex.nc.6': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_complex.nc.7': Wrote 24 frames.
+    OUTTRAJ: '_GMXMMPBSA_receptor.pdb': Wrote 1 frames.
+    OUTTRAJ: '_GMXMMPBSA_dummyreceptor.inpcrd': Wrote 1 frames.
+    OUTTRAJ: '_GMXMMPBSA_receptor.nc.0': Wrote 26 frames.
+    OUTTRAJ: '_GMXMMPBSA_receptor.nc.1': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_receptor.nc.2': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_receptor.nc.3': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_receptor.nc.4': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_receptor.nc.5': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_receptor.nc.6': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_receptor.nc.7': Wrote 24 frames.
+    OUTTRAJ: '_GMXMMPBSA_ligand.pdb': Wrote 1 frames.
+    OUTTRAJ: '_GMXMMPBSA_dummyligand.inpcrd': Wrote 1 frames.
+    OUTTRAJ: '_GMXMMPBSA_ligand.nc.0': Wrote 26 frames.
+    OUTTRAJ: '_GMXMMPBSA_ligand.nc.1': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_ligand.nc.2': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_ligand.nc.3': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_ligand.nc.4': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_ligand.nc.5': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_ligand.nc.6': Wrote 25 frames.
+    OUTTRAJ: '_GMXMMPBSA_ligand.nc.7': Wrote 24 frames.
+TIME: Analyses took 0.0000 seconds.
+
+DATASETS (3 total):
+	RMSD_00001 "RMSD_00001" (double, rms), size is 200 (1.600 kB)
+	RMSD_00002 "RMSD_00002" (double, rms), size is 200 (1.600 kB)
+	RMSD_00003 "RMSD_00003" (double, rms), size is 200 (1.600 kB)
+    Total data set memory usage is at least 4.800 kB
+
+RUN TIMING:
+TIME:		Init               : 0.0000 s (  0.00%)
+TIME:		Trajectory Process : 4.8435 s ( 99.46%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0000 s (  0.00%)
+TIME:		Other              : 0.0261 s (  0.01%)
+TIME:	Run Total 4.8697 s
+---------- RUN END ---------------------------------------------------
+TIME: Total execution time: 5.6744 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+
