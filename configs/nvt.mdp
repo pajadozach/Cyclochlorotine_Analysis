@@ -1,0 +1,29 @@
+integrator      = md
+nsteps          = 50000
+dt              = 0.001
+nstxout         = 1000
+nstvout         = 1000
+nstenergy       = 1000
+nstlog          = 1000
+nstxout-compressed = 1000
+cutoff-scheme   = Verlet
+nstlist         = 10
+rlist           = 1.0
+coulombtype     = PME
+rcoulomb        = 1.0
+rvdw            = 1.0
+
+tcoupl          = V-rescale
+tc-grps         = System
+tau_t           = 0.1
+ref_t           = 300
+
+pcoupl          = no
+
+constraints     = h-bonds
+constraint_algorithm = lincs
+continuation    = yes
+lincs_iter      = 1
+lincs_order     = 4
+
+define = -DPOSRES

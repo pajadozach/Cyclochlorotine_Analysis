@@ -1,0 +1,18 @@
+# This file was created Tue Sep 16 22:39:35 2025
+# Created by:
+#         :-) GROMACS - gmx distance, 2023.3-dev-20231019-5e5ea27d8e (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/zach/MD/project/MD/SUC/Run
+# Command line:
+#   gmx distance -s emulit.tpr -f MD/box_2bxd_h1suc.gro -n init_index.ndx -select 'com of group "Protein" plus com of group "UNL"' -oall init_com.xvg
+# gmx distance is part of G R O M A C S:
+#
+# GROningen MAchine for Chemical Simulation
+#
+@    title "Distance"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Distance (nm)"
+@TYPE xy
+      0.000    1.106

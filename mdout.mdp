@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: unknown (1002)
 ;	On host: DESKTOP-ITAVUD9
-;	At date: Sat Sep  6 14:26:17 2025
+;	At date: Mon Sep 15 19:49:38 2025
 ;
 ;	Created by:
 ;	         :-) GROMACS - gmx grompp, 2023.3-dev-20231019-5e5ea27d8e (-:
@@ -11,7 +11,7 @@
 ;	Data prefix:  /usr/local/gromacs
 ;	Working dir:  /home/zach/MD/project
 ;	Command line:
-;	  gmx grompp -f energy_md.mdp -c md.gro -p MD/protein/p2bxdtopol_h1ea.top -o energy.tpr
+;	  gmx grompp -f energy_md.mdp -c md.gro -p MD/protein/p2bxdtopol_h1rwf.top -o energy.tpr
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -76,7 +76,7 @@ compressed-x-precision   = 1000
 ; default, all atoms will be written.
 compressed-x-grps        = 
 ; Selection of energy groups
-energygrps               = Protein UNL
+energygrps               = Protein WAR
 
 ; NEIGHBORSEARCHING PARAMETERS
 ; cut-off scheme (Verlet: particle based cut-offs)
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -637573553
+gen-seed                 = -90492929
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds

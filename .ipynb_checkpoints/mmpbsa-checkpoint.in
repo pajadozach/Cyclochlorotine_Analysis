@@ -2,7 +2,7 @@
   startframe=3001, endframe=5000, interval=10,
   verbose=2,
   netcdf=1,
-  keep_files=1,
+  keep_files=0,
 /
 &gb
   igb=5,

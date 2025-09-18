@@ -22,4 +22,4 @@ tau-p = 5.0
 ref-p = 1.0
 compressibility = 4.5e-5
 pbc = xyz
-energygrps = Protein UNL
+energygrps = Protein WAR
